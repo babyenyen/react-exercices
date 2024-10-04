@@ -1,6 +1,9 @@
-function Header({name, age}) {
+function Header({name, children}) {
     return (
-    <h1>Agende de {name}, {age} ans</h1>
+    <h1>Agende de {name}
+    {children}
+    </h1>
+    
   );
 }
 export default Header;
