@@ -5,10 +5,10 @@ function Images({ images }) {
             <div className="gallery-images">
                 {images.map((imageObj, index) => (
                     <img 
-                        key={index} // Clé unique pour chaque image
-                        src={imageObj.image.default}
+                        key={index}
+                        src={imageObj.src} // Utilisez simplement imageObj.src
                         alt={`Projet ${index + 1}`} 
-                        className="gallery-image" // 'class' devient 'className'
+                        className="gallery-image"
                     />
                 ))}
             </div>
