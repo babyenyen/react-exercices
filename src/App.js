@@ -8,9 +8,9 @@ function App() {
     { title: 'Consulting', description: 'Nous vous accompagnons dans la définition et la mise en œuvre de votre stratégie numérique.' }
   ];
 
-  // Définissez les images avec 'src'
+  // objet de l'imagr est src pour qu'on sache que la valeur est un chemin
   let arrImages = [
-    { src: require('./assets/images/image1.png') }, // Vérifiez que le chemin est correct
+    { src: require('./assets/images/image1.png') }, // require est utilisé pour importer des images
     { src: require('./assets/images/image2.png') },
     { src: require('./assets/images/image3.png') },
     { src: require('./assets/images/image4.png') }

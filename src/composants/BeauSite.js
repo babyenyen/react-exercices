@@ -9,8 +9,8 @@ function BeauSite(props) {
           <Header />
           <div className="container">
             <Apropos />
-            <Services services={props.services} /> {/* Pass services prop */}
-            <Images images={props.images} /> {/* Assurez-vous que c'est 'images' */}
+            <Services services={props.services} />
+            <Images images={props.images} /> 
           </div>
         </>
     );
